@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useLocation } from 'wouter';
 import { API_URL } from '../config';
 import { FileUp, BookOpen, Flame, Plus } from 'lucide-react';

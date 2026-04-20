@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useCallback } from 'react';
 import { useLocation } from 'wouter';
 import { API_URL } from '../config';
-import { X, Sparkles, RefreshCw } from 'lucide-react';
+import { X, Sparkles } from 'lucide-react';
 
 const StudyMode: React.FC<{ id: string, token: string }> = ({ id, token }) => {
   const [, setLocation] = useLocation();
